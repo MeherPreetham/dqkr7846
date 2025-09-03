@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bfd-service
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bfd-service
+  template:
+    metadata:
+      labels:
+        app: bfd-service
+    spec:
+      nodeSelector:
+        workload: evaluator1
+      containers:
+        - name: bfd
+          image: iron5pi3dr11/best-fit-decreasing:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          env:
+            - name: AZURE_STORAGE_CONNECTION_STRING
+              valueFrom:
+                secretKeyRef:
+                  name: azure-storage-secret
+                  key: connection-string
+            - name: BLOB_CONTAINER
+              valueFrom:
+                secretKeyRef:
+                  name: blob-container-secret
+                  key: container
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 3
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
