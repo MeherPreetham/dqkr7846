@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ga-evaluator
+  namespace: default
+  labels:
+    app: ga-evaluator
+    workload: evaluator1
+spec:
+  replicas: 8
+  selector:
+    matchLabels:
+      app: ga-evaluator
+  template:
+    metadata:
+      labels:
+        app: ga-evaluator
+        workload: evaluator1
+    spec:
+      nodeSelector:
+        kubernetes.azure.com/agentpool: evaluator1
+      containers:
+      - name: ga-evaluator
+        image: iron5pi3dr11/ga-evaluate:latest
+        imagePullPolicy: Always
+        ports:
+        - name: http
+          containerPort: 5000
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: http
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: http
+          initialDelaySeconds: 15
+          periodSeconds: 20
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
