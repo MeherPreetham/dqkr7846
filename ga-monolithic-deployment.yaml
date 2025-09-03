@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ga-monolithic
+  labels:
+    app: ga-monolithic
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ga-monolithic
+  template:
+    metadata:
+      labels:
+        app: ga-monolithic
+    spec:
+      nodeSelector:
+        workload: evaluator1
+      containers:
+        - name: ga-monolithic
+          image: iron5pi3dr11/ga-monolithic:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
+          env:
+            - name: AZURE_STORAGE_CONNECTION_STRING
+              valueFrom:
+                secretKeyRef:
+                  name: azure-storage-secret
+                  key: connection-string
+            - name: BLOB_CONTAINER
+              valueFrom:
+                secretKeyRef:
+                  name: blob-container-secret
+                  key: container
+          readinessProbe:
+            httpGet:
+              path: /healthz   
+              port: 5000
+            initialDelaySeconds: 5
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 5000
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
