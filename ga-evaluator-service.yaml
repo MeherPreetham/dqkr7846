@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: default
+  name: ga-evaluator
+  labels:
+    app: ga-evaluator
+    workload: evaluator1
+    team: ga              
+spec:
+  type: ClusterIP      
+  selector:
+    app: ga-evaluator
+    workload: evaluator1
+  ports:
+    - name: http
+      port: 5000
+      targetPort: 5000
