@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: ga-controller
+  namespace: default
+  labels:
+    app: ga-controller
+spec:
+  serviceName: ga-controller-headless
+  podManagementPolicy: Parallel
+  replicas: 4
+  selector:
+    matchLabels:
+      app: ga-controller
+  template:
+    metadata:
+      labels:
+        app: ga-controller
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path:   "/metrics"
+        prometheus.io/port:   "8000"
+    spec:
+      containers:
+      - name: ga-controller
+        image: iron5pi3dr11/ga-controller:latest
+        imagePullPolicy: Always
+        ports:
+        - name: http
+          containerPort: 8000 
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: http
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: http
+          initialDelaySeconds: 15
+          periodSeconds: 20
+        resources:
+          requests:
+            cpu:    "200m"
+            memory: "256Mi"
+          limits:
+            cpu:    "1"
+            memory: "1Gi"
+        env:
+        - name: POD_NAME                  
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: EVALUATOR_HOST
+          value: "ga-evaluator"
+        - name: EVALUATOR_PORT
+          value: "5000"
+        - name: AZURE_STORAGE_CONNECTION_STRING
+          valueFrom:
+            secretKeyRef:
+              name: azure-storage-secret
+              key: connection-string
+        - name: BLOB_CONTAINER
+          valueFrom:
+            secretKeyRef:
+              name: blob-container-secret
+              key: container
+        - name: REDIS_HOST
+          valueFrom:
+            secretKeyRef:
+              name: redis-creds
+              key: host
+        - name: REDIS_PORT
+          valueFrom:
+            secretKeyRef:
+              name: redis-creds
+              key: port
+        - name: REDIS_DB
+          valueFrom:
+            secretKeyRef:
+              name: redis-creds
+              key: db
+        - name: REDIS_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: redis-creds
+              key: password
