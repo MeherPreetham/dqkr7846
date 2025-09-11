@@ -1,0 +1,504 @@
+=== cleanedtest1.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 120,
+    "num_generations": 250,
+    "migration_rate": 5,
+    "crossover_rate": 0.6,
+    "mutation_rate": 0.5,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 25,
+    "seed": 7,
+    "generations_executed": 110,
+    "elapsed_time_s": 361.0092177391052,
+    "best_fitness": 0.02829977338606159,
+    "makespan": 935.0,
+    "total_energy": 148.976,
+    "imbalance": 0.002916615295553112
+}
+
+=== cleanedtest2.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.05,
+    "idle_energy": 0.01,
+    "stagnation_limit": 20,
+    "seed": 21,
+    "generations_executed": 75,
+    "elapsed_time_s": 215.42049527168274,
+    "best_fitness": 0.03653547333666716,
+    "makespan": 943.0,
+    "total_energy": 750.8000000000001,
+    "imbalance": 0.0034336293344669243
+}
+=== cleanedtest3.txt ===
+{
+    "num_tasks": 1200,
+    "num_cores": 16,
+    "num_population": 500,
+    "num_generations": 60,
+    "migration_rate": 5,
+    "crossover_rate": 0.75,
+    "mutation_rate": 0.25,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 10,
+    "seed": 73,
+    "generations_executed": 59,
+    "elapsed_time_s": 1150.23268866539,
+    "best_fitness": 0.028248771196361593,
+    "makespan": 1131.0,
+    "total_energy": 180.45600000000002,
+    "imbalance": 0.0029000847035973785
+}
+
+=== cleanedtest4.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 500,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 5,
+    "seed": 99,
+    "generations_executed": 26,
+    "elapsed_time_s": 113.81931972503662,
+    "best_fitness": 0.03768582864793702,
+    "makespan": 967.0,
+    "total_energy": 149.92,
+    "imbalance": 0.024152710404135178
+}
+
+=== cleanedtest5.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 1000,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 100,
+    "seed": 87,
+    "generations_executed": 202,
+    "elapsed_time_s": 641.3683271408081,
+    "best_fitness": 0.028289114519729017,
+    "makespan": 939.0,
+    "total_energy": 149.6,
+    "imbalance": 0.0028828505391512334
+}
+
+=== cleanedtest6.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 42,
+    "generations_executed": 102,
+    "elapsed_time_s": 295.17582631111145,
+    "best_fitness": 0.028247336069276797,
+    "makespan": 944.0,
+    "total_energy": 150.32799999999997,
+    "imbalance": 0.0027419498968017184
+}
+
+=== cleanedtest7.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 2,
+    "num_population": 120,
+    "num_generations": 250,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.25,
+    "base_energy": 0.01,
+    "idle_energy": 0.004,
+    "stagnation_limit": 25,
+    "seed": 61,
+    "generations_executed": 26,
+    "elapsed_time_s": 83.19107294082642,
+    "best_fitness": 0.20204036820533497,
+    "makespan": 7442.0,
+    "total_energy": 148.83399999999997,
+    "imbalance": 6.719075455217362e-05
+}
+
+=== cleanedtest8.txt ===
+{
+    "num_tasks": 200,
+    "num_cores": 4,
+    "num_population": 30,
+    "num_generations": 50,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 10,
+    "seed": 1,
+    "generations_executed": 18,
+    "elapsed_time_s": 20.7691593170166,
+    "best_fitness": 0.10401826133521705,
+    "makespan": 762.0,
+    "total_energy": 30.336000000000002,
+    "imbalance": 0.0035545642291316855
+}
+
+=== cleanedtest9.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 120,
+    "num_generations": 250,
+    "migration_rate": 5,
+    "crossover_rate": 0.6,
+    "mutation_rate": 0.5,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 25,
+    "seed": 7,
+    "generations_executed": 110,
+    "elapsed_time_s": 361.0092177391052,
+    "best_fitness": 0.02829977338606159,
+    "makespan": 935.0,
+    "total_energy": 148.976,
+    "imbalance": 0.002916615295553112
+}
+
+=== cleanedtest10.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.05,
+    "idle_energy": 0.01,
+    "stagnation_limit": 20,
+    "seed": 21,
+    "generations_executed": 75,
+    "elapsed_time_s": 215.42049527168274,
+    "best_fitness": 0.03653547333666716,
+    "makespan": 943.0,
+    "total_energy": 750.8000000000001,
+    "imbalance": 0.0034336293344669243
+}
+
+=== cleanedtest11.txt ===
+{
+    "num_tasks": 1200,
+    "num_cores": 16,
+    "num_population": 500,
+    "num_generations": 60,
+    "migration_rate": 5,
+    "crossover_rate": 0.75,
+    "mutation_rate": 0.25,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 10,
+    "seed": 73,
+    "generations_executed": 59,
+    "elapsed_time_s": 1150.23268866539,
+    "best_fitness": 0.028248771196361593,
+    "makespan": 1131.0,
+    "total_energy": 180.45600000000002,
+    "imbalance": 0.0029000847035973785
+}
+
+=== cleanedtest12.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 500,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 5,
+    "seed": 99,
+    "generations_executed": 26,
+    "elapsed_time_s": 113.81931972503662,
+    "best_fitness": 0.03768582864793702,
+    "makespan": 967.0,
+    "total_energy": 149.92,
+    "imbalance": 0.024152710404135178
+}
+
+=== cleanedtest13.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 1000,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 100,
+    "seed": 87,
+    "generations_executed": 202,
+    "elapsed_time_s": 641.3683271408081,
+    "best_fitness": 0.028289114519729017,
+    "makespan": 939.0,
+    "total_energy": 149.6,
+    "imbalance": 0.0028828505391512334
+}
+
+=== cleanedtest14.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 42,
+    "generations_executed": 102,
+    "elapsed_time_s": 295.17582631111145,
+    "best_fitness": 0.028247336069276797,
+    "makespan": 944.0,
+    "total_energy": 150.32799999999997,
+    "imbalance": 0.0027419498968017184
+}
+
+=== cleanedtest15.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 2002,
+    "generations_executed": 61,
+    "elapsed_time_s": 760.88805103302,
+    "best_fitness": 0.028967551868898763,
+    "makespan": 947.0,
+    "total_energy": 150.82399999999998,
+    "imbalance": 0.0045521687528974255
+}
+
+=== cleanedtest16.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 2,
+    "num_population": 120,
+    "num_generations": 250,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.25,
+    "base_energy": 0.01,
+    "idle_energy": 0.004,
+    "stagnation_limit": 25,
+    "seed": 61,
+    "generations_executed": 26,
+    "elapsed_time_s": 83.19107294082642,
+    "best_fitness": 0.20204036820533497,
+    "makespan": 7442.0,
+    "total_energy": 148.83399999999997,
+    "imbalance": 6.719075455217362e-05
+}
+
+=== cleanedtest17.txt ===
+{
+    "num_tasks": 200,
+    "num_cores": 4,
+    "num_population": 30,
+    "num_generations": 50,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 10,
+    "seed": 1,
+    "generations_executed": 18,
+    "elapsed_time_s": 20.7691593170166,
+    "best_fitness": 0.10401826133521705,
+    "makespan": 762.0,
+    "total_energy": 30.336000000000002,
+    "imbalance": 0.0035545642291316855
+}
+
+=== cleanedtest18.txt ===
+{
+    "num_tasks": 2000,
+    "num_cores": 32,
+    "num_population": 120,
+    "num_generations": 300,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 30,
+    "seed": 51,
+    "generations_executed": 154,
+    "elapsed_time_s": 872.9903116226196,
+    "best_fitness": 0.01599320789810502,
+    "makespan": 940.0,
+    "total_energy": 299.30400000000003,
+    "imbalance": 0.0035312751896809684
+}
+
+=== cleanedtest19.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 2,
+    "generations_executed": 94,
+    "elapsed_time_s": 274.51112127304077,
+    "best_fitness": 0.028441437650855262,
+    "makespan": 947.0,
+    "total_energy": 150.83999999999997,
+    "imbalance": 0.0032453609022095042
+}
+
+=== cleanedtest20.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 4,
+    "generations_executed": 84,
+    "elapsed_time_s": 266.66038846969604,
+    "best_fitness": 0.02874112222974833,
+    "makespan": 941.0,
+    "total_energy": 149.536,
+    "imbalance": 0.0038083254028810007
+}
+
+=== cleanedtest21.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 3,
+    "generations_executed": 85,
+    "elapsed_time_s": 238.50386333465576,
+    "best_fitness": 0.028727469484206507,
+    "makespan": 945.0,
+    "total_energy": 150.43200000000002,
+    "imbalance": 0.003912922911794214
+}
+
+=== cleanedtest22.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 250,
+    "migration_rate": 5,
+    "crossover_rate": 0.95,
+    "mutation_rate": 0.05,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 30,
+    "seed": 13,
+    "generations_executed": 144,
+    "elapsed_time_s": 403.0236105918884,
+    "best_fitness": 0.02842598878421505,
+    "makespan": 932.0,
+    "total_energy": 148.544,
+    "imbalance": 0.0032568857071683483
+}
+
+=== cleanedtest23.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "stagnation_limit": 20,
+    "seed": 2001,
+    "generations_executed": 107,
+    "elapsed_time_s": 847.4228003025055,
+    "best_fitness": 0.028439241332564574,
+    "makespan": 934.0,
+    "total_energy": 148.67200000000003,
+    "imbalance": 0.003187542986583845
+}
+
+=== cleanedtest24.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "num_population": 100,
+    "num_generations": 200,
+    "migration_rate": 5,
+    "crossover_rate": 0.85,
+    "mutation_rate": 0.15,
+    "base_energy": 0.005,
+    "idle_energy": 0.001,
+    "stagnation_limit": 20,
+    "seed": 33,
+    "generations_executed": 67,
+    "elapsed_time_s": 194.54581832885742,
+    "best_fitness": 0.027787721873677743,
+    "makespan": 936.0,
+    "total_energy": 74.49999999999999,
+    "imbalance": 0.004067113971204626
+}
+
+
