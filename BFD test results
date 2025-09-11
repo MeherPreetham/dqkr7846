@@ -1,0 +1,336 @@
+=== cleanedtest1.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 42,
+    "elapsed_time_s": 0.014293909072875977,
+    "best_fitness": 0.02907076463574553,
+    "makespan": 943.0,
+    "total_energy": 150.296,
+    "imbalance": 0.004868186980639225
+}
+
+=== cleanedtest10.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.0,
+    "idle_energy": 0.0,
+    "seed": 42,
+    "elapsed_time_s": 0.015552997589111328,
+    "best_fitness": 0.02706881991380081,
+    "makespan": 943.0,
+    "total_energy": 0.0,
+    "imbalance": 0.004868186980639225
+}
+
+=== cleanedtest11.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.0,
+    "idle_energy": 0.1,
+    "seed": 42,
+    "elapsed_time_s": 0.013964653015136719,
+    "best_fitness": 0.02716605601103691,
+    "makespan": 943.0,
+    "total_energy": 7.300000000000001,
+    "imbalance": 0.004868186980639225
+}
+
+=== cleanedtest12.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 42,
+    "elapsed_time_s": 0.010953187942504883,
+    "best_fitness": 0.02907076463574553,
+    "makespan": 943.0,
+    "total_energy": 150.296,
+    "imbalance": 0.004868186980639225
+}
+
+=== cleanedtest13.txt ===
+{
+    "num_tasks": 200,
+    "num_cores": 4,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 1,
+    "elapsed_time_s": 0.0014712810516357422,
+    "best_fitness": 0.10233029702970299,
+    "makespan": 758.0,
+    "total_energy": 30.304000000000002,
+    "imbalance": 0.0006600660066006601
+}
+
+=== cleanedtest14.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 99,
+    "elapsed_time_s": 0.027469158172607422,
+    "best_fitness": 0.029059494351802048,
+    "makespan": 934.0,
+    "total_energy": 148.864,
+    "imbalance": 0.004841312533620226
+}
+
+=== cleanedtest15.txt ===
+{
+    "num_tasks": 1200,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 73,
+    "elapsed_time_s": 0.015135526657104492,
+    "best_fitness": 0.02710703672924544,
+    "makespan": 1128.0,
+    "total_energy": 180.36,
+    "imbalance": 0.00021477199280249638
+}
+
+=== cleanedtest16.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.005,
+    "idle_energy": 0.001,
+    "seed": 33,
+    "elapsed_time_s": 0.01324319839477539,
+    "best_fitness": 0.02825967496697223,
+    "makespan": 935.0,
+    "total_energy": 74.484,
+    "imbalance": 0.005314734087681232
+}
+
+=== cleanedtest17.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 42,
+    "elapsed_time_s": 0.014850854873657227,
+    "best_fitness": 0.02907076463574553,
+    "makespan": 943.0,
+    "total_energy": 150.296,
+    "imbalance": 0.004868186980639225
+}
+
+=== cleanedtest18.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 3,
+    "elapsed_time_s": 0.012016534805297852,
+    "best_fitness": 0.02926517571884984,
+    "makespan": 944.0,
+    "total_energy": 150.4,
+    "imbalance": 0.005324813631522897
+}
+
+=== cleanedtest19.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 33,
+    "elapsed_time_s": 0.013083696365356445,
+    "best_fitness": 0.02926073672357461,
+    "makespan": 935.0,
+    "total_energy": 148.968,
+    "imbalance": 0.005314734087681232
+}
+
+=== cleanedtest2.txt ===
+{
+    "num_tasks": 200,
+    "num_cores": 8,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 17,
+    "elapsed_time_s": 0.0026023387908935547,
+    "best_fitness": 0.05242036918133078,
+    "makespan": 506.0,
+    "total_energy": 40.456,
+    "imbalance": 0.0009574742512255667
+}
+
+=== cleanedtest20.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 13,
+    "elapsed_time_s": 0.011428356170654297,
+    "best_fitness": 0.029063935309973046,
+    "makespan": 932.0,
+    "total_energy": 148.544,
+    "imbalance": 0.004851752021563342
+}
+
+=== cleanedtest21.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 2,
+    "elapsed_time_s": 0.01371145248413086,
+    "best_fitness": 0.029139702237793403,
+    "makespan": 947.0,
+    "total_energy": 150.84,
+    "imbalance": 0.004991022369554848
+}
+
+=== cleanedtest22.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 4,
+    "elapsed_time_s": 0.013834238052368164,
+    "best_fitness": 0.029279742765273314,
+    "makespan": 938.0,
+    "total_energy": 149.44,
+    "imbalance": 0.0053590568060021436
+}
+
+=== cleanedtest23.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 2,
+    "base_energy": 0.01,
+    "idle_energy": 0.004,
+    "seed": 61,
+    "elapsed_time_s": 0.005482673645019531,
+    "best_fitness": 0.20204036820533497,
+    "makespan": 7442.0,
+    "total_energy": 148.834,
+    "imbalance": 6.719075455217362e-05
+}
+
+=== cleanedtest24.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 87,
+    "elapsed_time_s": 0.019197463989257812,
+    "best_fitness": 0.02927730192719486,
+    "makespan": 939.0,
+    "total_energy": 149.6,
+    "imbalance": 0.0053533190578158455
+}
+
+=== cleanedtest3.txt ===
+{
+    "num_tasks": 8,
+    "num_cores": 64,
+    "base_energy": 0.01,
+    "idle_energy": 0.005,
+    "seed": 5,
+    "elapsed_time_s": 0.0006470680236816406,
+    "best_fitness": 1.1569064934966427,
+    "makespan": 20.0,
+    "total_energy": 7.03,
+    "imbalance": 2.7056392496146224
+}
+
+=== cleanedtest4.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 2,
+    "elapsed_time_s": 0.01483464241027832,
+    "best_fitness": 0.028282520490686358,
+    "makespan": 95.0,
+    "total_energy": 15.08,
+    "imbalance": 0.0025734108612673868
+}
+
+=== cleanedtest5.txt ===
+{
+    "num_tasks": 5000,
+    "num_cores": 4,
+    "base_energy": 0.01,
+    "idle_energy": 0.02,
+    "seed": 9,
+    "elapsed_time_s": 0.030236482620239258,
+    "best_fitness": 0.10200000000000001,
+    "makespan": 18697.0,
+    "total_energy": 747.88,
+    "imbalance": 0.0
+}
+
+=== cleanedtest6.txt ===
+{
+    "num_tasks": 200,
+    "num_cores": 2,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 11,
+    "elapsed_time_s": 0.0008437633514404297,
+    "best_fitness": 0.202,
+    "makespan": 1490.0,
+    "total_energy": 29.8,
+    "imbalance": 0.0
+}
+
+=== cleanedtest7.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 2,
+    "elapsed_time_s": 0.015139341354370117,
+    "best_fitness": 0.02924892453713277,
+    "makespan": 94965.0,
+    "total_energy": 15130.312000000002,
+    "imbalance": 0.00528574343259597
+}
+
+=== cleanedtest8.txt ===
+{
+    "num_tasks": 1000,
+    "num_cores": 16,
+    "base_energy": 0.01,
+    "idle_energy": 0.01,
+    "seed": 123,
+    "elapsed_time_s": 0.023223400115966797,
+    "best_fitness": 0.027019579048923277,
+    "makespan": 30873.0,
+    "total_energy": 4939.68,
+    "imbalance": 4.2661204614707336e-05
+}
+
+=== cleanedtest9.txt ===
+{
+    "num_tasks": 64,
+    "num_cores": 8,
+    "base_energy": 0.01,
+    "idle_energy": 0.002,
+    "seed": 1,
+    "elapsed_time_s": 0.0005166530609130859,
+    "best_fitness": 0.052000000000000005,
+    "makespan": 80.0,
+    "total_energy": 6.4,
+    "imbalance": 0.0
+}
+
